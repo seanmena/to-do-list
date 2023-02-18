@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      html {
+        background-color: pink;
+        color: black;
+        font-style: italic;
+        font-size: 24px;
+        padding-left: 5%;
+      }
+      .loading-todo {
+        text-decoration: line-through;
+      }
+    </style>
   </head>
   <body>
     <h1>To Do:</h1>
@@ -12,7 +24,9 @@
     <input id="task" type="text" />
     <button id="button">ADD</button>
 
-    <ul id="list"></ul>
+    <ul id="list">
+      <li class="loading-todo">Make to do list cute</li>
+    </ul>
 
     <script src="/script.js"></script>
   </body>
